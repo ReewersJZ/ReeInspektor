@@ -1,0 +1,776 @@
+
+
+body
+{
+    font-family: "Quicksand";
+    overflow-x: hidden;
+}
+
+@font-face {
+	font-family: "Quicksand";
+    src: url('fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+
+.bg-navigation
+{
+	background-color: #F9F9F9;
+}
+
+.icons_nav
+{
+	width: 30px;
+	margin-right: 12px;
+}
+
+.navbar{
+	
+	border-bottom: 2px rgb(236, 234, 234);
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+    border-style: solid;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.navDocumentsLink{
+    padding-left: 2%;
+}
+
+.icons_nav
+{
+	width: 20px;
+	margin-right: 12px;
+}
+
+.bigLink{
+    font-size: 20px;
+}
+
+.navDocumentsLinkInviseble{
+    display: none;
+}
+
+.logOutButton{
+    padding-left: 45%;
+}
+
+@media (max-width: 1020px)
+{
+    .logOutButton{
+        padding-left: 45%;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .logOutButton{
+        padding-left: 45% !important;
+    }
+}
+
+@media (max-width: 871px)
+{
+    .logOutButton{
+        padding-left: 40% !important;
+    }
+}
+
+@media (max-width: 830px)
+{
+    .logOutButton, .navDocumentsLink{
+        padding-left: 0% !important;
+    }
+}
+
+
+.mainPicture{
+    padding-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15%; 
+    width: 80%; 
+}
+
+@media (max-width: 991px)
+{
+	.mainPicture{
+        margin-left: auto;
+        margin-right: auto;
+}
+}
+
+@media (max-width: 767px)
+{
+    .mainPictureDiv{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15% !important;
+
+    }
+}
+
+@media (max-width: 575px)
+{
+    .mainPictureDiv{
+        padding-top: 20% !important;
+
+    }
+}
+
+
+.typeOfCourse{
+    margin-top: 3%; 
+}
+
+@media (max-width: 767px)
+{
+    .typeOfCourse{
+        padding-top: 0% !important;
+        margin-top: 3%; 
+    }
+}
+
+
+.typeOfCourseText{
+    font-size: 30px;
+    color: #cc3939;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+@media (max-width: 991px)
+{
+    .typeOfCourseText{
+        text-align: right;
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .typeOfCourseText{
+        text-align: center;
+    }
+}
+
+
+.typeOfCourseText2{
+    text-align: right;
+    margin-right: 20%;
+
+}
+
+
+@media (max-width: 991px)
+{
+    .typeOfCourseText2{
+        text-align: right;
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .typeOfCourseText2{
+        text-align: center;
+    }
+}
+
+.cardSizeBlocked{
+    display: none;
+}
+
+.questionText{
+    text-align: justify;
+}
+
+.filmBlock{
+    text-align: center;
+}
+
+.film{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goToTest{
+    width: 100%;
+    background-color: #cc3939 !important;
+    border-color: #cc3939 !important;
+}
+
+.footerStyle1:hover {
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: red; 
+    font-size: 20; 
+    color: white; 
+    font-weight: bold;
+}
+
+.button_reload {
+    text-align: center;
+}
+
+.long_message {
+    width: 100%;
+
+}
+
+
+/*style of test1*/
+
+.instruction{
+    background-image: linear-gradient(to left,  white, #f6f6f6, white);
+}
+
+#if80showDiv{
+    display: none;
+}
+
+.infoBlock{
+    text-align: justify;
+    margin-right: 5%;
+}
+
+.questionNumber, .questionText{
+    margin-left: 3%;
+
+}
+
+.questionBlockAnswerPointTest{
+    margin-left: 15%;
+}
+
+.questionBlockAnswerText{
+    margin-left: 25%;
+}
+
+.formAnswerBlock{
+    margin-top: 4%;
+}
+
+.send_message {
+    background-color: #cc3939;
+    width: 100%;
+    margin-left: 3%;
+
+}
+
+.send_message{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.AntiBotCheck{
+    display: none;
+}
+
+.showIfFilledDiv{
+    display: none;
+}
+
+.logoStyle{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.selectInfo1{
+    padding-top: 20px !important;
+}
+
+.selectInfoLabel{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 767px)
+{
+    .selectInfoLabel{
+        text-align: left;
+    }
+}
+
+
+.button_send_message {
+    width: 50%;
+    text-align: center;
+
+}
+
+.sendTest{
+    width: 40%;
+    background-color: #37474F !important;
+    border-color: #37474F !important;
+}
+
+.btnLogingCheckTest{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 575px)
+{
+    .btnLogingCheckTest{
+        width: 40%;
+    }
+}
+
+.ResultOfTestInput{
+    border-style: none;
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+
+.btnLogingCheckTestButton{
+    background-color: #37474F;
+    border-color: #37474F;
+}
+
+@media (max-width: 991px){
+    .btnLogingCheckTestButton{
+        font-size: 14px !important;
+    }
+}
+
+.introductionToFilm{
+    text-align: right;
+    margin-right: 10%;
+}
+
+
+/*style of mainPanel*/
+
+.typeOfCourseTextMainPanel{
+    font-size: 75px;
+    color: #F9F9F9;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20%;
+}
+
+@media (max-width: 991px)
+{
+    .typeOfCourseTextMainPanel{
+        font-size: 50px;
+        color: #F9F9F9;
+        text-shadow: 2px 2px black;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 5%;
+}
+}
+
+@media (max-width: 767px)
+{
+    .typeOfCourseTextMainPanel{
+        text-align: center;
+        margin-right: 0%;
+    }
+}
+
+
+
+.iconsBox{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.card:hover {
+    background-color: #ECECEC;
+    text-decoration: none;
+}
+
+
+.icons{
+    width: 30%;
+}
+
+
+.card-body{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+@media (max-width: 1199px)
+{
+    .card-text{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .card-text{
+        font-size: 11px;
+
+    }
+}
+
+@media (max-width: 776px)
+{
+    .card-text{
+        font-size: 16px;
+    }
+}
+
+
+.shortLine{
+    margin-right: 20%;
+}
+
+/*style of platforma.php*/
+
+@media (max-width: 1199px)
+{
+    #widthOfFilm{
+        width: 750px;
+        height: 421px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    #widthOfFilm{
+        width: 500px;
+        height: 281px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    #widthOfFilm{
+        width: 375px;
+        height: 210px;
+    }
+}
+
+
+
+/*style of index.php*/
+
+.form-signin{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnLoging{
+    background-color: #cc3939;
+    border-color: lavender;
+}
+
+
+/*style of form*/
+
+@media (max-width: 767px)
+{
+    .ListOfContent{
+        margin-left: 5px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+
+
+@media (max-width: 767px)
+{
+    .containerWithForms{
+        padding-right: 3%;
+    }
+}
+
+
+.firstLevel{
+    font-size: 22px;
+    color: #cc3939;
+}
+
+.secondLevel{
+    color: rgba(10, 10, 128, 0.966);
+    font-size: 16px;
+}
+
+@media (max-width: 767px)
+{
+    .firstLevel, .secondLevel, .thirdLevel{
+        font-size: 0.8rem !important;
+        margin-left: 1%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .firstLevel, .secondLevel, .thirdLevel{
+        font-size: 0.6rem !important;
+    }
+}
+
+.thirdLevel{
+    color: black !important;
+    font-size: 16px;
+}
+
+.listStylefirst{
+    list-style: disc;
+    margin-left: 4%;
+}
+
+.listStyleSecond{
+    list-style: disc;
+    margin-left: 2%;
+}
+
+.listStyleThird{
+    list-style: disc;
+    margin-left: 4%;
+}
+
+/*style of insert.php*/
+
+.zaswiadczenieNaglowek{
+    font-size: 65px;
+    color: #cc3939;
+    text-shadow: 2px 2px rgba(233, 229, 229, 0.918);
+    font-weight: bold;
+    text-align: center;
+}
+
+.zaswiadczenieTekst{
+    font-size: 25px;
+    text-align: center;
+}
+
+.zaswiadczenieTekstBold{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.zaswiadczenieTekstStopka{
+    font-size: 15px;
+    margin-left: 20%;
+}
+
+.zaswiadczenieTekstStopkaBold{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.mainPictureZaswiadczenieDiv{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.mainPictureZaswiadczenie{
+    width: 70%;
+}
+
+.buttonZaswiadczenieDrukuj{
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 10%;
+    text-shadow: 2px 2px rgba(233, 229, 229, 0.918);
+}
+
+.printSpaceNav{
+    width: 200px;
+}
+
+.icons_nav_print{
+    width: 20px;
+	margin-left: 12px;
+}
+
+.dataForCertificate, .dataForCertificateLeft{
+    border-style: none;
+    font-weight: bold;
+    font-size: 25px;
+    max-width: fit-content;
+    color: black;
+    max-width: content;
+}
+
+
+.dataForCertificate{
+    text-align: center;
+    min-width: 100%;
+}
+
+.dataForCertificatePlace{
+    text-align: center;
+}
+
+.dataForCertificateLeft{
+    text-align: left;
+}
+
+/*style of analizaRyzyka.php*/
+
+.formAnswerBlockAnalyse{
+    margin-top: 4%;
+}
+
+#buttonGoToNext, #buttonGoToNext2{
+    display: none;
+}
+
+#AnswerAnalyse, #AnswerAnalyse2{
+    display: none;
+}
+
+.etapyRyzyko{
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+.send_messageRyzyko {
+    background-color: #cc3939;
+    width: 100%;
+}
+
+.questionBlockAnswerPoint{
+    margin-left: 5%;
+}
+
+/**/
+
+#labelOf3step, #wynikiAnalizyUkryte, #akceptacja, #redukcja, #unikanie, #przeniesienie, #zatwierdzWybor, #finalButton, #doUkrycia, #doUkrycia2, #doUkrycia3{
+    display: none;
+}
+
+.boxRaport{
+    text-align: center;
+}
+
+.boxRaportAnswer{
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxRaportNaglowek{
+    font-weight: bold;
+}
+
+.naglowekTabeli{
+    text-align: center;
+}
+
+.btnblue{
+    background-color: cornflowerblue;
+}
+
+.resultsOfFirstTest{
+    text-align: center;
+}
+
+
+.labelOfTable{
+    background-color: #F3F3F3;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.sprawdzCzyOcenaSkutkow{
+    background-color: #E9E9E9;
+}
+
+.commentOfResult{
+    font-size: 20px;
+    color: #cc3939;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+/*style of faq*/
+
+.answersToHide{
+    display: none;
+}
+
+.addBorder{
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+.questions{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8E2323;
+
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 1000px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+
+
+/*style of footer*/
+
+footer
+{
+	background-color: #bfbfbf;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.footerStyle1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 0;
+
+}
+
+#logo_ree{
+	width: 100px;
+	padding-bottom: 6px;
+}
